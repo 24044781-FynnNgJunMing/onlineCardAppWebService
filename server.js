@@ -2,7 +2,7 @@
 const express = require('express');
 const mysql = require('mysql2/promise');
 require('dotenv').config();
-const port = 300;
+const port = 3000;
 
 // database config info
 const dbConfig = {
